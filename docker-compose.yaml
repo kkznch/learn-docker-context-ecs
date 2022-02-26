@@ -1,0 +1,7 @@
+x-aws-vpc: "[作成したVPCのID]"
+
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "80:80"
